@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size:14px;
+}
+h1, h2, h3, h4, h5, h6{
+  
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+
+
+.header{
+
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+
+}
+
+ .header .header-container{
+    /* border:1px solid blue; */
+}
+.header-row{
+    /* border: 1px solid aqua; */
+}
+.header-box{
+    /* border: 1px solid lime; */
+}
+#nav-right{
+    /* border: 1px solid blue; */
+   
+}
+#nav-right ul{
+    display: block;
+    float: right;
+    /* border: 1px solid rgb(92, 92, 92); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  
+
+}
+#nav-right ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px ;   
+}
+#nav-right ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #0F2656;
+    /* margin: 0px 0px 0px 20px; */
+}
+#nav-right ul li a:hover{
+    color: #008AfE;
+}
+/* header end----------------------> */
+
+
+/* banner start---------------------> */
+.banner{
+   
+    padding: 80px 0px;
+    text-align: center;
+}
+.banner-container{
+    /* border: 1px solid blue; */
+}
+.banner-row{
+    /* border: 1px solid aqua; */
+}
+.banner-box {
+    /* border: 1px solid lime; */
+}
+.banner-box  h1{
+    font-size: 54px;
+    font-weight: 700;
+    /* line-height: 64px; */
+    color: #0F2656;
+    margin: 0px 0px 15px 0px;
+}
+.banner-box  h1 span{
+    color: #008AfE;
+}
+.banner-box p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0F2656;
+    margin: 0px 0px 15px 0px;
+}
+.banner-box .image{
+    /* border: 1px solid black; */
+    width:60%;
+}
+
+
+
+
+
+/* banner end--------------------> */
+
+/* page3 start--------------------> */
+.page3{
+    /* border:1px solid red; */
+}
+.page3-container{
+    /* border: 1px solid blue; */
+}
+.page3-row{
+    /* border: 1px solid aqua; */
+}
+
+.page3-box{
+    /* border: 1px solid lime; */
+    
+}
+#left-side{
+    /* border:1px solid red; */
+    margin: 0px;
+    padding: 0px;
+    
+}
+#left-side .left-container{
+    /* border: 1px solid orange; */
+  
+}
+.left-row{
+    /* border: 2px solid blue; */
+    text-align: right;
+   
+}
+.main-text{
+    font-size: 54px;
+    font-weight: 700;
+    /* line-height: 64px; */
+    color:  rgb(214, 71, 83);
+    margin: 0px 0px 15px 0px;
+    font-family: monospace;
+   
+}
+.text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0F2656;
+    margin: 0px 0px 25px 0px;
+}
+
+#right-side{
+    /* border: 1px solid lime; */
+}
+#right-side h3{
+    font-size: 54px;
+    font-weight: 700;
+    /* line-height: 64px; */
+    color:  #0F2656;
+    margin: 0px 0px 15px 0px;
+   
+}
+
+/* page3 end----------------------> */
+
+/* page4 start------------> */
+
+.page4{
+    /* border:1px solid red; */
+    margin: 50px 0px 50px 0px;
+}
+.page4-container{
+    /* border: 1px solid blue; */
+}
+.page4-row{
+    /* border: 1px solid aqua; */
+}
+.page4-box{
+    /* border: 1px solid lime; */
+}
+.page4-left-container{
+    /* border: 1px solid red; */
+}
+.page4-left-row{
+    padding: 50px 0px 50px 0px;
+    background-color: #ffeff1;
+}
+.left-img{
+    /* border: 1px solid blue; */
+    height: 185px;
+
+}
+.page4-text{
+    margin: 10px 0px 10px 0px;
+    color: #0F2656;
+   
+}
+.page4-text1{
+    margin: 10px 0px 10px 0px;
+    color: #0F2656;
+}
+
+
+#page4-middle{
+    /* border: 1px solid red; */
+}
+.page4-middle-row{
+    padding: 50px 0px 50px 0px;
+    background-color: #eef7f3;
+}
+.middle-img{
+    /* border: 1px solid blue; */
+    height: 185px;
+}
+
+#page4-right .page4-right-row {
+    padding: 50px 0px 50px 0px;
+    background-color: #fff5e6;
+}
+.right-img{
+   
+    height: 185px;
+}
+
+@media screen and (max-width: 992px){
+  
+    #page4-right{
+        margin-top: 27px;
+    }
+}
+@media screen and (max-width: 768px){
+    #page4-middle{
+        margin-top: 15px;
+    }
+    #page4-right{
+        margin-top: 15px;
+    }
+}
+/* page4 end----------------------> */
+
+/* footer start */
+.footer{
+    /* border:1px solid red; */
+   
+}
+.footer-container{
+    /* border: 1px solid blue; */
+}
+.footer-row{
+    /* border: 1px solid aqua; */
+}
+.footer-text{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    background-color: #008cff;
+}
+.footer-text h5{
+    color:#7ccfff ;
+    font-weight: 200;
+    font-size: 13px;
+}
+.footer-text h5 span{
+    font-weight: 700;
+    color:#e5f3fc ;
+    
+}
